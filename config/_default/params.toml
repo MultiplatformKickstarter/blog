@@ -1,17 +1,17 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
+favicon = "images/favicon-32x32.png"
 # logo
 logo = "images/MKLogo.png"
 # use `x` with logo_width, example: "100x".
 # Note: logo_width is not work with .svg file
 logo_width = "298x"
 # logo text will only show when logo is missing.
-logo_text = "Multiplatform Kickstarter"
+logo_text = "Multiplatform Kickstarter Blog"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
+description = "Discover how to create multiplatform applications using Kotlin Multiplatform"
 author = "Themefisher"
 image = "images/MKLogo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
@@ -40,14 +40,14 @@ no_tags_found = "No Tags Found"
 
 mainSections = ["blog"]
 # about widget content
-about_widget_content = "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
+about_widget_content = "Developed by industry veterans, *Multiplatform Kickstarter* is the first **template** with all the boilerplate code needed to help you to **kickstart your business in no time**."
 # footer content
 footer_content = ""
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script= ""
 # copyright
-theme_copyright = true
-copyright = "Copyright by Multiplatform Kickstarter"
+theme_copyright = false
+copyright = "<a href=\"https://storyset.com/user\">Illustrations by Storyset</a> | Copyright © 2023 Multiplatform Kickstarter. All rights reserved."
 
 # 404
 error_404_text = "404 Page Not Found!"
@@ -61,18 +61,18 @@ preloader = "" # use jpg, png, svg or gif format.
 # Banner
 [banner]
 enable = true
-title_large = "Multiplatform Kickstarter"
-title_small = "Blog"
-image = "images/banner.jpg"
+title_large = "Kotlin Multiplatform Blog"
+title_small = "by Multiplatform Kickstarter"
+image = "/images/sharing-articles-pana.svg"
 background_image = "/images/banner-bg-shape.svg"
-content = "Discover how to create multiplatform applications using Kotlin Multiplatform"
-button_label = "About Us"
-button_link = "about/"
+content = "Discover how to create multiplatform applications using Kotlin Multiplatform. \n\nDeveloped by industry veterans, *Multiplatform Kickstarter* is the first **template** with all the boilerplate code needed to help you to **kickstart your business in no time**. \n\nBased in **Kotlin Multiplatform** (KMP) and **Compose Multiplatform**, with few simple steps you will have up and running applications for **Android**, **iOS** and **Desktop** using **Ktor** as the server."
+button_label = "Download now"
+button_link = "https://github.com/MultiplatformKickstarter/adoptme"
 
 # Advertise
-[advertisement]
-image = "images/promotion.png"
-link = "https://multiplatformkickstarter.com/"
+#[advertisement]
+#image = "images/promotion.png"
+#link = "https://multiplatformkickstarter.com/"
 
 # cookies
 [cookies]
@@ -88,41 +88,41 @@ sidebar = ["about", "categories", "recent-post", "newsletter"]
 
 
 # Subscription
-[subscription]
-enable = false
-newsletter_title = "Newsletter"
-newsletter_invitation = "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!"
-newsletter_placeholder = "Type And Hit Enter"
-newsletter_reminder_a = "By Singing Up, You Agree To"
-newsletter_reminder_b = "Privacy Policy"
-newsletter_button = "Sign in"
+#[subscription]
+#enable = false
+#newsletter_title = "Newsletter"
+#newsletter_invitation = "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!"
+#newsletter_placeholder = "Type And Hit Enter"
+#newsletter_reminder_a = "By Singing Up, You Agree To"
+#newsletter_reminder_b = "Privacy Policy"
+#newsletter_button = "Sign in"
 # mailchimp subsciption
-mailchimp_form_action = ""
-mailchimp_form_name = ""
+#mailchimp_form_action = ""
+#mailchimp_form_name = ""
 
 
 ############################# social site ########################
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/people/Multiplatform-Kickstarter/61553633924457/"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/mpkickstarter"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+#[[social]]
+#title = "instagram"
+#icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+#link = "#"
 
 [[social]]
 title = "github"
 icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://github.com/MultiplatformKickstarter"
 
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+#[[social]]
+#title = "linkedin"
+#icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+#link = "#"
