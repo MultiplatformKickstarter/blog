@@ -12,7 +12,7 @@ logo_text = "Multiplatform Kickstarter Blog"
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
 description = "Discover how to create multiplatform applications using Kotlin Multiplatform"
-author = "Themefisher"
+author = "Ferran Pons"
 image = "images/MKLogo.png" # this image will be used as fallback if a page has no image of its own
 # contact info
 address = "9567 Turner Trace Apt. BC C3G8A4"
