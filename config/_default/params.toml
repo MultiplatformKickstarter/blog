@@ -47,7 +47,7 @@ footer_content = ""
 custom_script= ""
 # copyright
 theme_copyright = false
-copyright = "<a href=\"https://storyset.com/user\">Illustrations by Storyset</a> | Copyright © 2023 Multiplatform Kickstarter. All rights reserved."
+copyright = "<a href=\"https://storyset.com/user\">Illustrations by Storyset</a> | Copyright © 2023-2024 Multiplatform Kickstarter. All rights reserved."
 
 # 404
 error_404_text = "404 Page Not Found!"
